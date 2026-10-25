@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Silvia Lee Portfolio</title>
+<meta name="description" content="Portfolio of Silvia Lee, computer science student at Georgia State University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800;900&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" style="user-select: none;"><i></i>SILVIA</a>
+    <nav aria-label="Sections">
+      <a class="btn kiwi" href="#work" style="user-select: none;"><b>Work</b><small>See my projects</small></a>
+      <a class="btn cream" href="#about" style="user-select: none;"><b>About</b><small>Who I am</small></a>
+      <a class="btn red" href="#contact" style="user-select: none;"><b>Contact</b><small>Get my email</small></a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <p class="kicker">Computer Science · Georgia State University</p>
+    <h1 class="poster" aria-label="Silvia Lee builds things">
+      <span class="row" aria-hidden="true" style="user-select: none;">SIL<span class="pill p-red"><span>2026</span></span>VIA</span>
+      <span class="row" aria-hidden="true" style="user-select: none;"><span class="pill p-sun"></span>LEE<span class="pill p-kiwi"></span></span>
+      <span class="row" aria-hidden="true" style="user-select: none;">BUILDS<span class="pill p-green"></span></span>
+    </h1>
+    <div class="hero-foot" style="user-select: none;">
+      <div class="actions">
+        <a class="btn" href="#work" style="user-select: none;"><b>See my work ↓</b><small>Scrolls down to my projects</small></a>
+        <a class="btn green" href="#contact" style="user-select: none;"><b>Reach out ↓</b><small>Jumps to my email address</small></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true" style="user-select: none;">
+    <div class = "marquee-group"><em></em><span>Interactive Design</span><em></em><span>Python</span><em></em><span>Unity Engine</span><em></em><span>Clip Studio</span><em></em><span>UI/UX</span><em></em><span>Game Development</span><em></em></div>
+    <div class = "marquee-group"><span>Interactive Design</span><em></em><span>Python</span><em></em><span>Unity Engine</span><em></em><span>Clip Studio</span><em></em><span>UI/UX</span><em></em><span>Game Development</span><em></em></div>
+  </div>
+  
+  <section class="band about" id="about" style="user-select: none;">
+    <div class="wrap">
+      <p class="label" style="color:inherit;opacity:.7">About me</p>
+      <h2 style="margin-top:14px">I make interaction <mark>colorful</mark></h2>
+      <dl class="facts">
+        <div class="fact"><dt>Studying</dt><dd>Computer Science, Georgia State University</dd></div>
+        <div class="fact"><dt>Concentration</dt><dd>Game development and interactive design</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="band" id="work" style="user-select: none;">
+    <div class="wrap">
+      <div class="section-head">
+        <div><p class="label">My works</p><h2>Projects</h2></div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------ -->
+
+      <div class="projects">
+        <!--Game-->
+
+        <article class="card big">
+          <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
+            <p class="meta">In progress</p>
+            <h3>A Game Project Coming Soon</h3>
+            <p>This slot is reserved for a future game project.</p>
+            <div class="tags"><span>Unity</span></div>
+          </div>
+        </article>
+
+        <!--Next one-->
+        <article class="card half c-red">
+          <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
+            <p class="meta">Hacktlanta II 2026 · Team project</p>
+            <h3>AutoParts Pulse</h3>
+            <p>A dashboard that helps drivers compare car part prices</p>
+            <ul class="feat">
+              <li>Redesigned the interface to feel app-like</li>
+              <li>Implemented a more intuitive search flow</li>
+              <li>Added service fee calculation</li>
+            </ul>
+            <div class="tags"><span>Python</span><span>HTML</span><span>UI redesign</span></div>
+            <a class="btn" href="https://github.com/danvse/Hackathon-2026" target="_blank" rel="noopener"><b>View code ↗</b><small>Opens the GitHub repo in a new tab</small></a>
+          </div>
+        </article>
+        <article class="card half c-kiwi">
+          <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
+          <p class="meta">PantherDev 2026 · Semester team project</p>
+          <h3>PantherDev Knockout</h3>
+          <p>A two-player multiplayer fighting game</p>
+          <ul class="feat">
+            <li>Worked on character coloring and illustration</li>
+          </ul>
+          <div class="tags"><span>Clip Studio</span><span>Digital Art</span></div>
+          <a class="btn" href="https://nathannemyman.itch.io/pantherdev-knockout" target="_blank" rel="noopener"><b>View game ↗</b><small>Opens the itch.io pagein a new tab</small></a>
+        </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------------------------ -->
+
+  <section class="band toolbox" style="user-select: none;">
+    <div class="wrap">
+      <div class="section-head"><div><p class="label" style="color:#5b5446">What I work with</p><h2>Toolbox</h2></div></div>
+      <div class="tool-grid">
+        <div class="tool"><span class="dot" style="background:var(--tomato)"></span><h3>Unity</h3><p>Certificate: Unity Certified Developer</p></div>
+        <div class="tool"><span class="dot" style="background:var(--sunshine)"></span><h3>Clip Studio</h3><p>Digital illustration and animation software.</p></div>
+        <div class="tool"><span class="dot" style="background:var(--forest)"></span><h3>Figma</h3><p>UI/UX design and prototyping tool.</p></div>
+        <div class="tool"><span class="dot" style="background:var(--carrot)"></span><h3>Python and C#</h3><p>Programming languages for various applications.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band contact" id="contact" style="user-select: none;">
+    <div class="wrap">
+      <p class="label" style="color:inherit;opacity:.75">Contact</p>
+      <h2 style="margin-top:12px">Let's<br>talk.</h2>
+      <div class="contact-row">
+        <span class="email" id="email">seohyeonsilvia@gmail.com</span>
+        <button class="btn" id="copyBtn" type="button"><b>Copy email ↗</b><small>Puts my address on your clipboard</small></button>
+        <a class="btn cream" href="https://github.com/west1054" target="_blank" rel="noopener"><b>GitHub ↗</b><small>Opens my team repo in a new tab</small></a>
+      </div>
+      <p class="toast" id="toast" role="status"></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Silvia Lee</span>
+    <a class="btn cream" href="#top" style="box-shadow:0 3px 0 var(--ink)"><b>Back to top ↑</b><small>Returns to the start of the page</small></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
